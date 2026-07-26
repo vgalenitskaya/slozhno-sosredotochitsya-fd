@@ -1,12 +1,27 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --page-bg: #fff1f7;
+  --page-image: url(../images/cover-image-light.png);
+  --page-text: #353430;
+  --hero-title: #ffc2e6;
+  --section-title: #353430;
+  --accent: #ff8dcb;
+  --decor-text: #353430;
+  --theme-control: #353430;
+  --control-hover: rgba(50, 49, 45, 0.4);
+  --rec-visibility: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --page-bg: #fff1f7;
+    --page-image: url(../images/cover-image-light.png);
+    --page-text: #353430;
+    --hero-title: #ffc2e6;
+    --section-title: #353430;
+    --accent: #ff8dcb;
+    --decor-text: #353430;
+    --theme-control: #353430;
+    --control-hover: rgba(50, 49, 45, 0.4);
+    --rec-visibility: none;
+  }
 }

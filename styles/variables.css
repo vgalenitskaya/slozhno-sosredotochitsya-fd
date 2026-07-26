@@ -1,4 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --main-font: "IBM Plex Mono", monospace;
+  --edge-space: 10px;
+
+  --page-bg: #000028;
+  --page-image: url(../images/cover-image-dark.png);
+  --page-text: #f1b2ce;
+  --hero-title: #db00ff;
+  --section-title: #ff0070;
+  --accent: #ff0070;
+  --decor-text: #000028;
+  --theme-control: #ff0070;
+  --control-hover: rgba(255, 0, 112, 0.4);
+  --rec-visibility: flex;
+}
